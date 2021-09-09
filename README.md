@@ -1,9 +1,9 @@
 # Linkedln interview prep
-#### events
-## promises
-## accessibility
-## prototypal inheritance
-## floats in CSS 
+### events
+### promises
+### accessibility
+### prototypal inheritance
+### floats in CSS 
 
 ## Installation
 
