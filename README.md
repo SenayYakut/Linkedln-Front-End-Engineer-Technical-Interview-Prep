@@ -1,6 +1,9 @@
 # Linkedln interview prep
-
-Apply Accessibility principles to fix the “Creamy Chocolate Cupcakes” website so that it has a more accessible and more attractive design, with a more judicious use of contrast.
+## events
+## promises
+## accessibility
+## prototypal inheritance
+## floats in CSS 
 
 ## Installation
 
@@ -9,8 +12,7 @@ Install the project locally
 ```
 
 ## Usage
-Go to https://senayyakut.github.io/ACCESSIBLITY-a11y/
-
+Go to 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
