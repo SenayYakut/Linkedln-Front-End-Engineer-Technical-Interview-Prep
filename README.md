@@ -4,6 +4,8 @@
 ### accessibility
 ### prototypal inheritance
 ### floats in CSS 
+### HTTP requests
+### CSS preprocessors,SASS,SCSS
 
 ## Installation
 
