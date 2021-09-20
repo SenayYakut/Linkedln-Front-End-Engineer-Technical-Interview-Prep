@@ -1,24 +1,19 @@
 //Determine if a string is a palindrome
 
-function isTextPalindrome(text){
-  if(text === undefined){
-    return false;
-  }
-  let left = 0;
-  let right = text.length -1;
-  while(left < right){
-    if(text[left++] !== text[right--]){
-      return false;
+const isPalindrome = function(s) {
+    //sterilaize our string
+    s = s.toLowerCase().replace(/[\W_]/g, "");
+    //two pointers
+    let left = 0;
+    let right = s.length -1;
+    while(left < right){
+      if(s[left] !== s[right]){
+        return false;      
+      }
+      left++;
+      right--;
     }
-  }
-  return true;
-}
-
-function isPhrasePalindrome(text){
-  let chars = text.replace(/[^a-zA-Z]/g, "").toLowerCase();
-  return isTextPalindrome(chars);
-
-}
-
-console.log(isTextPalindrome("sees"));
-console.log(isPhrasePalindrome("madam"));
+    return true;    
+};
+console.log(isPalindrome("madam"));
+console.log(isPalindrome("madam senay"));
