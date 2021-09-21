@@ -12,7 +12,8 @@ const rob = function(nums){
     for(let i = 2; i < nums.length; i++){
       maxLootAmount.push(Math.max(nums[i] + maxLootAmount[i-2], maxLootAmount[i-1]));
   }
-    return maxLootAmount.pop();
+    return maxLootAmount.pop();//return maxLootAmount[maxLootAmount.length-1];
+
 }
 
 console.log(rob([1,2,2,1]));//3
